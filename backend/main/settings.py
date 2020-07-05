@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'CP-Track',
         'USER': 'postgres',
-        'PASSWORD': 'janu5ulka',
+        'PASSWORD': '',
         'HOST': 'localhost'
     }
 }
