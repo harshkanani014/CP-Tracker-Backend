@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'homepage',
     'accounts',
+    'problempage',
     'rest_framework',
     'corsheaders',
     'django.contrib.admin',
@@ -137,4 +138,3 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CORS_ORIGIN_ALLOW_ALL = True
-
