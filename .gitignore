@@ -4,3 +4,6 @@ venv
 
 # Python
 **/__pycache__/**
+
+
+**/migrations/**
