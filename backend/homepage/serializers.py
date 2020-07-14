@@ -5,4 +5,4 @@ from .models import postcard
 class postcardSerializer(serializers.ModelSerializer):
     class Meta:
         model = postcard
-        fields = ('id', 'heading', 'image', 'alt', 'text', 'created_at')
+        fields = ('id', 'heading', 'image', 'alt', 'text', 'link','created_at')

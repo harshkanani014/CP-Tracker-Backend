@@ -7,5 +7,6 @@ class postcard(models.Model):
     image = models.CharField(max_length=100)
     alt = models.CharField(max_length=100)
     text = models.CharField(max_length=100)
+    link = models.CharField(max_length=100),
     created_at = models.DateTimeField(auto_now_add = True)
 
