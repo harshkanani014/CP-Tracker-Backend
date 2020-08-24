@@ -6,7 +6,7 @@ from rest_framework import generics
 
 
 class postcardListCreate(generics.ListCreateAPIView):
-    queryset = postcard.objects.all()
+    queryset = postcard.objects.all().order_by('id')
     serializer_class = postcardSerializer
 
 

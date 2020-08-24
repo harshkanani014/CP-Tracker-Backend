@@ -54,4 +54,21 @@ class CPP_tutorial(models.Model):
     source = models.CharField(max_length=1000)
     tut_link = models.CharField(max_length=1000)
 
+#########################################################
+# 4. MODEL FOR JAVA TRACK
 
+class java_problem(models.Model):
+    id = models.IntegerField(primary_key = True, unique= True)
+    topic = models.CharField(max_length=100)
+    difficulty_level = models.CharField(max_length=100)
+    source = models.CharField(max_length=100)  # for example hackerank, codechef
+    prob_name = models.CharField(max_length=1000)   #problem name
+    prob_link = models.CharField(max_length=1000)   #problem link
+    sol_link = models.CharField(max_length=1000)     #sol_link
+
+
+class java_tutorial(models.Model):
+    id = models.IntegerField(primary_key = True, unique= True)
+    topic = models.CharField(max_length=100)
+    source = models.CharField(max_length=1000)
+    tut_link = models.CharField(max_length=1000)

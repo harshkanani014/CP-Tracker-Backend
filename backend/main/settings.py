@@ -84,9 +84,9 @@ WSGI_APPLICATION = 'main.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'CP-Track',
+        'NAME': 'CP-Tracker_db',
         'USER': 'postgres',
-        'PASSWORD': 'janu5ulka',
+        'PASSWORD': 'harsh1234',
         'HOST': 'localhost'
     }
 }
