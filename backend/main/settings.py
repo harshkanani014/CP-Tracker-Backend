@@ -28,7 +28,7 @@ SECRET_KEY = ')op)$1grwz8yk$#9^$ge$v6b=1+@bo73lasmf)j64!l8ow&$dx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cp-tracker.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'main.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'CP-Tracker_db',
-        'USER': 'postgres',
-        'PASSWORD': 'harsh1234',
-        'HOST': 'localhost'
+        'NAME': 'dfru7adjhbqaj3',
+        'USER': 'wofztwedbxxgur',
+        'PASSWORD': '3bcab3bbc0b251d86de27fb1a45afe32aa75ad9ce64db478be9df95913e3b43f',
+        'HOST': 5432
     }
 }
 
