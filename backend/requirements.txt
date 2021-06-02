@@ -28,7 +28,7 @@ six==1.15.0
 soupsieve==2.0.1
 sqlparse==0.3.1
 toml==0.10.1
-urllib3==1.25.9
+urllib3==1.26.5
 virtualenv==20.0.31
 virtualenvwrapper-win==1.2.6
 whitenoise==5.2.0
